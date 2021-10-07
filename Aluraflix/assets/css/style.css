@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #000;
+}
+
+nav {
+    background-color:#000;
+    height: 10vh;
+    padding: 20px;
+    display: flex;
+    box-shadow: inset 2px 2px 30px #2d3436;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.container-page-logo {
+    display: flex;
+}
+
+.container-page-logo #aluraflix {
+    color: #c0392b;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.container-page-logo #imersao-logo {
+    width: 10vw;
+}
+
+.nav-bar {
+    display: flex;
+    padding-left: 40px;
+}
+
+.nav-bar-items {
+    padding-top: 8px;
+    cursor: pointer;
+    padding-right: 40px;
+    color: #fff;
+}
+
+.nav-bar-items:hover {
+    font-weight: 900;
+}
+
+.container-search {
+    margin-right: 20px;
+    margin-left: 75px;
+}
+
+.search-field {
+    border-radius: 5px;
+    height: 3vh;
+    padding: 3px;
+}
+
+.search-icon {
+    width: 1vw;
+    cursor: pointer;
+}
+
+#search-phrase-result {
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#no-found {
+    color: #fff;
+    font-size: 20px;
+}
+
+.search-result-img {
+    width: 17vw;
+    height: 47vh;
+    text-align: left;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+.container-slide {
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 75vh;
+    margin-top: 70px;
+    box-shadow: inset 10px 10px 30px #000;
+    box-shadow: 10px 10px 30px #000;
+}
+
+#page-title {
+    text-align: left;
+    padding-top: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    color: #fff;
+    text-shadow: 5px 5px #000;
+    width: 20vw;
+}
+
+.container-catalog {
+    padding-bottom: 30px;
+    background: linear-gradient(45deg, #000, #2d3436);
+}
+
+.catalog-title {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 25px;
+    margin: 0 0 10px 10px;
+    text-shadow: 4px 4px #000;
+    color: #fff;
+}
+
+.catalog-images {
+    width: 17vw;
+    height: 45vh;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    box-shadow: 5px 10px 30px #000;
+    cursor: pointer;
+}

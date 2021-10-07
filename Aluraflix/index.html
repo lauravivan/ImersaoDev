@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+        <title>Imersão Dev Alura - Aula 04</title>
+    </head>
+    <body>
+        <nav>
+            <div class="container-page-logo">
+                <h2 id="aluraflix" onclick="aluraflix()">ALURAFLIX</h2>
+                <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" id="imersao-logo" alt="logo da imersão dev">
+            </div>
+            <ul class="nav-bar">
+                <li class="nav-bar-items" onclick="showMovies()">Filmes</li>
+                <li class="nav-bar-items" onclick="showSeries()">Séries</li>
+                <li class="nav-bar-items" onclick="showCartoons()">Cartoons</li>
+                <li class="nav-bar-items" onclick="showDramas()">Doramas</li>
+                <li class="nav-bar-items" onclick="showAnimes()">Animes</li>
+            </ul>
+            <div class="container-search">
+                <input type="text" class="search-field" id="search" placeholder="digite para pesquisar">
+                <img class="search-icon" onclick="search()" src="assets/img/search-icon.png" alt="ícone lupa">
+            </div>
+        </nav>
+
+        <main>
+            <div class="container-slide" id="slide"></div>
+            <div class="container-catalog" id="catalog"></div>
+        </main>
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+</html>
