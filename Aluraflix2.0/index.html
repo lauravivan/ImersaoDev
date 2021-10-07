@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
+      <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+      <title>Imersão Dev Alura - Aula 05</title>
+  </head>
+  <body>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <header>
+        <h1>Aluraflix</h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    </header>
+    <div class="container-wrapper">
+      <div class="container-form">
+        <div class="container-enter">
+          <div class="container-url">
+            <label class="lbl-enter" id="lbl-url">Qual seu filme/série preferido(a)?</label><br>
+            <input type="text" class="user-enter" id="movie-and-series" placeholder="Insira endereço de imagem">
+          </div>
+          <div class="container-title">
+            <label class="lbl-enter" id="lbl-title">E qual o nome dele(a)?</label><br>
+            <input type="text" class="user-enter" id="name" placeholder="Insira o nome da série ou filme"> 
+          </div>
+        </div>
+        <br>
+        <button class="btn-action" id="btn-add" onclick="addMovieOrSeries()">Adicionar Filme/Série</button>
+      </div>
+
+      <div class="container-delete">
+        <label class="lbl-enter" id="lbl-delete">Insira o nome para excluir</label><br>
+        <input type="text" class="user-enter" id="name-delete" placeholder="Insira o nome da série ou filme">
+        <br>
+        <button class="btn-action" id="btn-delete" onclick="delMovieOrSeries()">Deletar Filme/Série</button>
+      </div>
+    </div>
+
+    <div id="userList"></div>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </body>
+</html>
