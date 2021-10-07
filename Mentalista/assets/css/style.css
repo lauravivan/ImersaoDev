@@ -1,0 +1,97 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #2d3436;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.container {
+    display: flex;
+    margin: 5px 20px 20px;
+}
+
+header {
+    text-align: center;
+    line-height: 1.5;
+    background-color: #000000;
+    width: 50vw;
+    height: 40vw;
+    margin-right: 10px;
+    margin-top: 60px;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.page-logo {
+    width: 10vw;
+}
+
+.page-subtitle {
+    color: #fff;
+}
+
+header #user-value {
+    font-family: "Roboto Mono", monospace;
+    border-radius: 5px;
+    width: 8vw;
+    height: 2vw;
+    font-size: 14px;
+}
+
+header button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #d63031;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+
+header button:hover {
+    font-size: 17px;
+}
+
+header #gif {
+    margin-top: 30px;
+}
+
+header #gif img {
+    height: 22vw;
+    width: 34vw;
+}
+
+main {
+    text-align: center;
+    background-color: #000000;
+    width: 50vw;
+    height: 40vw;
+    margin-top: 60px;
+}
+
+.result {
+    font-size: 22px;
+    color: #fff;
+    padding: 20px;
+}
+
+main #resultGif {
+    margin-left: 20px;
+}
+
+main #resultGif img {
+    width: 22vw;
+    height: 40vh;
+}
+  
