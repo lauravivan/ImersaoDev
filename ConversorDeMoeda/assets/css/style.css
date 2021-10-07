@@ -1,0 +1,93 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url(https://images.pexels.com/photos/3222685/pexels-photo-3222685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-color: #ecf0f1;
+}
+
+.alura-logo {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.machine {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    background-color: #000;
+    height: 60vh;
+    padding: 20px;
+}
+
+header {
+    line-height: 1.5;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #ecf0f1;
+}
+
+.page-subtitle {
+    color: #ecf0f1
+}
+
+.page-logo {
+    width: 10vw;
+    margin-top: 10px;
+}
+
+.container-result {
+    margin-top: 140px;
+    width: 30vw;
+    margin-left: 41px;
+    background-color: #2d3436;
+    box-shadow: inset 5px 2px 30px #a4b0be;
+}
+
+.container-result #result {
+    font-size: 30px;
+    color: #000;
+    font-weight: 900;
+    text-shadow: 1px 1px 15px #ecf0f1;
+}
+
+aside {
+    background-color: #2d3436;
+    padding: 20px;
+}
+
+aside label {
+    color: #ecf0f1;
+    font-size: 17px;
+}
+
+aside #user-value {
+    margin-top: 10px;
+    width: 6vw;
+    height: 2vw;
+    font-family: "Roboto Mono", monospace;
+}
+
+.container-buttons {
+    margin-top: 150px;
+}
+
+.container-buttons button {
+    margin-bottom: 10px;
+    font-family: "Roboto Mono", monospace;
+    width: 10vw;
+    font-size: 16px;
+    padding: 4px;
+    background-color: #feca57;
+    box-shadow: inset 20px 20px 20px #F79F1F;
+}
+
+
+
+

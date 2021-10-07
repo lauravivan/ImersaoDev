@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+        <title>Imersão Dev Alura - Aula 02</title>
+    </head>
+    <body>
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"><a href="https://alura.com.br/" target="_blank"></a>
+        <div class="machine">
+            <main>
+                <header>
+                    <h1>Conversor de Moeda</h1>
+                    <h3 class="page-subtitle">Descubra os valores em dólar, euro e won</h3>
+                    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+                </header>
+                
+                <div class="container-result">
+                    <p id="result"></p>
+                </div>
+            </main>
+
+            <aside>
+                <label>Informe o valor em R$</label><br>
+                <input type="number" id="user-value"/>
+
+                <div class="container-buttons">
+                    <button type="button" onclick="convertToUSD()">Converter para dólar</button><br>
+                    <button type="button" onclick="convertToEuro()">Converter para euro</button><br>
+                    <button type="button" onclick="convertToWon()">Converter para won</button><br>
+                </div>
+            </aside>
+        </div>
+        
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+</html>
