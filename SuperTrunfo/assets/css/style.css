@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+    display: flex;
+    text-align: center;
+}
+
+.container {
+    margin-top: 180px;
+    margin-left: 30px;
+}
+
+.container h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.page-logo {
+    width: 15vw;
+}
+
+.container button {
+    padding: .8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.container h2 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.options {
+    color: #ffffff;
+    font-size: 15px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.container #btnTryAgain {
+    margin-left: 30px;
+}
+
+.title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 50px 130px 50px 0;
+}
+
+.container-card {
+    display: flex;
+    margin-right: 100px;
+}
+
+.card {
+    width: 273px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.card #user-card-name, .card #computer-card-name {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #ecf0f1;
+    color: #000000;
+}
+
+.card #user-card-img, .card #computer-card-img {
+    width: 20vw;
+}
+
+.card #user-card-atribute, .card #computer-card-atribute {
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2px;
+    background-color: #2c3e50;
+} 
+
+.container-card #card-vs-card {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 90px;
+    padding: 20px;
+}
