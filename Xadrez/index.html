@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <title>Imersão Dev Alura - Aula 06</title>
+</head>
+<body>
+
+    <header>
+        <h1>Tabela de classificação</h1>
+        <div class="current-winner">
+            <img src="assets/img/trofeu.png">
+            <p>Atual Vencedor(a):</p>
+            <h3 id="winner"></h3>
+        </div>
+    </header>
+
+    <main>
+        <div class="register-player">
+            <label id="lbl-register">Informe o nome do(a) jogador(a):</label><br>
+            <input class="text-input" type="text" id="player-name">
+            <button id="btn-register" type="submit" onclick="register()">Inserir na tabela</button>
+        </div>
+
+        <div class="round">
+            <label id="lbl-round">Partida</label><br>
+            <img src="assets/img/chess2.png" style="width: 8vw;">
+            <input class="text-input" id="input-player1" type="text" placeholder="nome"> 
+            X
+            <input class="text-input" id="input-player2" type="text" placeholder="nome">
+            <img src="assets/img/chess2.png" style="width: 8vw;"><br>
+        
+            <div class="container-buttons">
+                <button id="player1-won" type="submit" onclick="player1Won()">Jogador 1 Ganhou</button>
+                <button id="btn-draw" type="submit" onclick="addDraw()">Empate</button>
+                <button id="player2-won" type="submit" onclick="player2Won()">Jogador 2 Ganhou</button><br>
+            </div>
+        </div>
+    </main>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+            </tr>
+        </thead>
+        <tbody id="playersTable"></tbody>
+    </table>
+    
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

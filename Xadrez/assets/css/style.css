@@ -1,0 +1,128 @@
+body {
+    font-family: 'Sue Ellen Francisco', cursive;
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-image: url(https://images.pexels.com/photos/112854/pexels-photo-112854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.current-winner {
+    display: flex;
+    margin-right: 40px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.current-winner img {
+    width: 7vw;
+}
+
+.current-winner p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.current-winner #winner {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.register-player {
+    text-align: center;
+}
+
+.register-player #lbl-register {
+    color: #000;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.register-player #player-name {
+    width: 10vw;
+    margin-top: 13px;
+}
+
+.text-input {
+    border-radius: 5px;
+    border-color: #000 bolder;
+    width: 18%;
+    height: 30px;
+    font-size: 23px;
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+
+.register-player #btn-register {
+    font-size: 18px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    padding: 1px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-color: #000 bolder;
+    margin-top: 13px;
+}
+
+.round {
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+}
+
+.round #lbl-round {
+    font-size: 30px;
+    color: #000;
+}
+
+.container-buttons {
+    margin-top: 20px;
+}
+
+.container-buttons button {
+    font-size: 20px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    border-radius: 5px;
+    border-color: #000 bolder;
+    font-weight: 600;
+}
+
+table {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    margin-top: 30px;
+    width: 50vw;
+    background-color: #fff;
+    margin-left: 40px;
+}
+
+th,
+tr,
+td {
+    border: solid 1px #000;
+    color: #000;
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 5px;
+}
+
+td {
+    font-size: 28px;
+}
