@@ -1,0 +1,75 @@
+body {
+    background-color: #000;
+    background-image: url(https://images.pexels.com/photos/816608/pexels-photo-816608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    font-family: 'Bungee Hairline', cursive;
+}
+
+.container-img {
+    margin: 50px;
+    background-image: url(https://media1.giphy.com/media/l1KXtGiWieAhji91u/giphy.gif?cid=ecf05e470sgbo86evltdg9qxet41pzc1kpe715y1h38wudef&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #fff;
+}
+
+header {
+    text-align: center;
+    text-shadow: 5px 5px #000;
+    font-size: 50px;
+    color: #ecf0f1;
+}
+
+.description {
+    text-align: center;
+    text-shadow: 4px 4px #000;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    color:#ecf0f1;
+}
+
+label {
+    text-align: left;
+    text-shadow: 4px 4px #000;
+    font-size: 20px;
+    color:#ecf0f1;
+}
+
+input {
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: #ecf0f1;
+    width: 13vw;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: 900;
+}
+
+button {
+    font-size: 16px;
+    margin-left: 15px;
+    background-color: #ecf0f1;
+    border-color: #000;
+    border-radius: 5px;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: 900;
+}
+
+button:hover {
+    text-align: left;
+    font-size: 17px;
+    background-color: #D980FA;
+    border-color: #000;
+}
+
+main #result {
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 3px 3px #000;
+    font-size: 30px;
+    font-weight: 900;
+    color: #ecf0f1;
+}
