@@ -359,6 +359,36 @@ let dramaCards = [
         nome: "Han Go-woon",
         img: "assets/img/DramaCharacters/go-woon.png",
         atributos: {charming: 100, mocking: 80, stylish: 100, embarasing: 10, iconic: 100}
+    },
+    {
+        nome: "Yu Na-bi",
+        img: "assets/img/DramaCharacters/na-bi.gif",
+        atributos: {charming: 70, mocking: 0, stylish: 50, embarasing: 20, iconic: 50}
+    },
+    {
+        nome: "Park Jae-eon",
+        img: "assets/img/DramaCharacters/jae-eon.gif",
+        atributos: {charming: 90, mocking: 40, stylish: 40, embarasing: 30, iconic: 50}
+    },
+    {
+        nome: "Yoon Sol",
+        img: "assets/img/DramaCharacters/sol.gif",
+        atributos: {charming: 100, mocking: 0, stylish: 70, embarasing: 0, iconic: 100}
+    },
+    {
+        nome: "Seo Ji-wan",
+        img: "assets/img/DramaCharacters/ji-wan.gif",
+        atributos: {charming: 100, mocking: 0, stylish: 90, embarasing: 20, iconic: 100}
+    },
+    {
+        nome: "Oh Bit-na",
+        img: "assets/img/DramaCharacters/bit-na.gif",
+        atributos: {charming: 70, mocking: 70, stylish: 90, embarasing: 40, iconic: 100}
+    },
+    {
+        nome: "Nam Kyu-hyun",
+        img: "assets/img/DramaCharacters/kyu-hyun.jpg",
+        atributos: {charming: 50, mocking: 0, stylish: 20, embarasing: 10, iconic: 40}
     }
 ]
 let dramaGifsVictory = [
@@ -368,7 +398,12 @@ let dramaGifsVictory = [
     "assets/img/DramaCharacters/VictoryGifs/goblin-3.gif",
     "assets/img/DramaCharacters/VictoryGifs/goblin.gif",
     "assets/img/DramaCharacters/VictoryGifs/true-beauty-2.gif",
-    "assets/img/DramaCharacters/VictoryGifs/true-beauty.gif"
+    "assets/img/DramaCharacters/VictoryGifs/true-beauty.gif",
+    "assets/img/DramaCharacters/VictoryGifs/nevertheless.gif",
+    "assets/img/DramaCharacters/VictoryGifs/nevertheless-2.gif",
+    "assets/img/DramaCharacters/VictoryGifs/nevertheless-3.gif",
+    "assets/img/DramaCharacters/VictoryGifs/nevertheless-4.gif",
+    "assets/img/DramaCharacters/VictoryGifs/nevertheless-5.gif"
 ];
 let dramaGifsDefeat = [
     "assets/img/DramaCharacters/DefeatGifs/bong-soon.gif",
@@ -376,7 +411,10 @@ let dramaGifsDefeat = [
     "assets/img/DramaCharacters/DefeatGifs/goblin-3.gif",
     "assets/img/DramaCharacters/DefeatGifs/goblin.gif",
     "assets/img/DramaCharacters/DefeatGifs/true-beauty.gif",
-    "assets/img/DramaCharacters/DefeatGifs/uncontrollably-fond.gif"
+    "assets/img/DramaCharacters/DefeatGifs/uncontrollably-fond.gif",
+    "assets/img/DramaCharacters/DefeatGifs/nevertheless.gif",
+    "assets/img/DramaCharacters/DefeatGifs/nevertheless-2.gif",
+    "assets/img/DramaCharacters/DefeatGifs/nevertheless-3.gif"
 ];
 
 let userCards = [];
@@ -411,9 +449,9 @@ function scottPilgrimVsTheWorld() {
 function dramaCharacters() {
     buildHTML();
     chosenTheme = dramaCards;
-    qntUserCards = 14;
-    qntComputerCards = 14;
-    totalQuantity = 28;
+    qntUserCards = 17;
+    qntComputerCards = 17;
+    totalQuantity = 34;
 }
 
 function buildHTML() {
