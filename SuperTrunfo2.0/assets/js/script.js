@@ -267,7 +267,7 @@ let dramaCards = [
     },
     {
         nome: "Shin Joon-young",
-        img: "assets/img/DramaCharacters/joon-young.gif",
+        img: "assets/img/DramaCharacters/joon-young.jpg",
         atributos: {charming: 40, mocking: 70, stylish: 80, embarasing: 10, iconic: 20}
     },
     {
