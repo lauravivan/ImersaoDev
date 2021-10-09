@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png);
+    background-color: #000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+header {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.page-title {
+    color: #fff;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 180px;
+}
+
+.theme-image {
+    border-radius: 120px;
+    width: 17vw;
+    height: 17vw;
+    cursor: pointer;
+}
+
+.theme-image:hover {
+    opacity: 0.8;
+}
+
+.theme-name {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.container-super-trunfo {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.super-trunfo-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.page-logo {
+    width: 15vw;
+}
+
+.container-super-trunfo button {
+    padding: .8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.lbl-choose-character {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #000000;
+}
+
+.options {
+    color: #fff;
+    font-size: 20px;
+}
+
+.container-super-trunfo #btnTryAgain {
+    margin-left: 30px;
+}
+
+.title, #titulo-resultado {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 30px 30px 20px 0;
+}
+
+.second-container {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 60px;
+}
+
+.card {
+    width: 273px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.second-container #user-card, .second-container #computer-card {
+    width: 360px;
+    height: 480px;
+    overflow: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 335px 350px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+}
+
+.second-container #user-card h2, .second-container #computer-card h2 {
+    z-index: 2;
+    position: absolute;
+    top: 35px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.atributes {
+    margin: 2em;
+    color: white;
+    z-index: 1;
+    font-size: 25px;
+    width: 30vw;
+}
+
+.second-container #card-vs-card {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 90px;
+    padding: 20px;
+}
