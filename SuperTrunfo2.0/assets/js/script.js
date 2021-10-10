@@ -441,6 +441,8 @@ function strangerThings() {
 function scottPilgrimVsTheWorld() {
     buildHTML();
     chosenTheme = scottPilgrimVsTheWorldCards;
+    chosenVictoryGifs = scottPilgrimVsTheWorldGifsVictory;
+    chosenDefeatGifs = scottPilgrimVsTheWorldGifsDefeat;
     qntUserCards = 8;
     qntComputerCards = 8;
     totalQuantity = 16;
@@ -449,6 +451,8 @@ function scottPilgrimVsTheWorld() {
 function dramaCharacters() {
     buildHTML();
     chosenTheme = dramaCards;
+    chosenVictoryGifs = dramaGifsVictory;
+    chosenDefeatGifs = dramaGifsDefeat;
     qntUserCards = 17;
     qntComputerCards = 17;
     totalQuantity = 34;
